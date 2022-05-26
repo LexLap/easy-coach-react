@@ -5,6 +5,23 @@
     flex-direction: column;
 }
 
+.loading-modal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    // position: absolute;
+    background-color: rgb(252, 227, 205);
+    div{
+      width: 10rem;
+      height: 10rem;
+      background-image: url("../../media/loading.gif");
+      background-size: cover;
+    }
+}
+
 .toggle-categories-button{
     background-color: rgb(122,121,221);
     color: white;

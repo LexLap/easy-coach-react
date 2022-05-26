@@ -5,12 +5,12 @@ import StatsTable from "./StatsTable";
 const Task1 = () => {
 
 
-  return (
-    <div className="app-container">
-      <StatsTable />
-      <BarChart />
-    </div>
-  );
+    return (
+        <div className="app-container">
+            <StatsTable />
+            <BarChart />
+        </div>
+    );
 }
 
 
