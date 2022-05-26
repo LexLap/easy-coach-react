@@ -56,7 +56,6 @@ const MatchStatsContextProvider = (props) => {
         dataSourceArr.forEach((athleteData, i) => {
             columns.forEach((column, x) => {
                 const newValue = isNaN(parseInt(athleteData[column])) ? athleteData[column] === "X" ? 1 : 0 : parseInt(athleteData[column])
-                // console.log(newValue)
                 if (newSumOfValues[column] === undefined) newSumOfValues[column] = newValue
                 else newSumOfValues[column] += newValue
 
