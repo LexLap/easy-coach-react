@@ -1,0 +1,113 @@
+.app-container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle-categories-button{
+    background-color: rgb(122,121,221);
+    color: white;
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+
+.shots-dashboard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field{
+    width: 100vw;
+    height: 100vw;
+    max-width: 55rem;
+    max-height: 50rem;
+    background-color: rgb(192,197,203);
+    position: absolute;
+    top: 4rem;
+    overflow: hidden;
+}
+
+.stats-overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.shot-location{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.shot-details{
+    background-color: rgb(122,121,221);
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 0.5rem;
+    position: relative;
+
+    top: -1rem;
+    left: -1rem;
+}
+
+.area{
+    border: 2px solid black;
+    position: absolute;
+    overflow: hidden;
+}
+
+#area-1{
+width: 24%;
+height: 24%;
+top: -12%;
+left: 38%;
+border-radius: 50%;
+}
+#area-2{
+    width: 70%;
+    height: 18%;  
+    top: 56%;
+    left: 15%;
+}
+#area-3{
+    width: 50%;
+    height: 150%;  
+    top: 55%;
+    left: 25%;
+    border-radius: 50%;
+    position: relative;
+}
+#area-4{
+    width: 25%;
+    height: 30%;  
+    top: 74%;
+    left: 15%;  
+}
+#area-5{
+    width: 25%;
+    height: 30%;  
+    top: 74%;
+    left: 60%;  
+}
+#area-6{
+    width: 20%;
+    height: 15%;  
+    top: 74%;
+    left: 40%; 
+}
+#area-7{
+    width: 20%;
+    height: 15%;  
+    top: 89%;
+    left: 40%; 
+}

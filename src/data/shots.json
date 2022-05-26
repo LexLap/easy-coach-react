@@ -1,0 +1,71 @@
+{
+    "team": "Puebla F.C.",
+    "shots":[
+        {
+            "shooter": "24 Raul Castillo",
+            "isGoal": "false",
+            "shLocation": "40:50",
+            "time":"04:30"
+        },
+        {
+            "shooter": "188 Hector Sanchez",
+            "isGoal": "true",
+            "shLocation": "60:30",
+            "time":"05:15"
+        },
+        {
+            "shooter": "186 Manlio Rivera",
+            "isGoal": "false",
+            "shLocation": "40:30",
+            "time":"15:25"
+        },
+        {
+            "shooter": "190 Alberto Rodriguez",
+            "isGoal": "false",
+            "shLocation": "25:30",
+            "time":"23:48"
+        },
+        {
+            "shooter": "197 Diego Zago",
+            "isGoal": "true",
+            "shLocation": "30:25",
+            "time":"32:55"
+        },
+        {
+            "shooter": "207 Christian Seas",
+            "isGoal": "false",
+            "shLocation": "80:75",
+            "time":"40:25"
+        },
+        {
+            "shooter": "193 Santiago Roman",
+            "isGoal": "false",
+            "shLocation": "60:45",
+            "time":"55:15"
+        },
+        {
+            "shooter": "188 Hector Sanchez",
+            "isGoal": "false",
+            "shLocation": "55:90",
+            "time":"65:34"
+        },
+        {
+            "shooter": "188 Hector Sanchez",
+            "isGoal": "false",
+            "shLocation": "85:10",
+            "time":"70:48"
+        },
+        {
+            "shooter": "186 Manlio Rivera",
+            "isGoal": "true",
+            "shLocation": "20:70",
+            "time":"85:10"
+        },
+        {
+            "shooter": "186 Manlio Rivera",
+            "isGoal": "false",
+            "shLocation": "20:80",
+            "time":"90:00"
+        }
+    ]
+}
